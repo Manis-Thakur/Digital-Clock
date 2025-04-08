@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, rgba(73, 73, 203, 0.8), rgba(244, 103, 3, 0.2));
+    background-repeat: no-repeat;
+}
+
+.clock-conatiner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#clock{
+    padding: 40px;
+    color: white;
+    background-color: rgb(33, 33, 33);
+    box-shadow: 3px 3px 7px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
